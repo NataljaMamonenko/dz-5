@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
 //Надаємо значення 4 змінним та сумуємо їх попарно;
-        int a = 7;
+        int a = 6;
         int b = 3;
         int sum1 = a + b;
         int c = 5;
@@ -18,9 +18,9 @@ public class Main {
 //Виводить результат порівняння (true якщо перша сума більша).
         System.out.println(sum3 >= sum4);
 //Виводить true якщо хоча б одна сума кратна 2, інакше - false.
-        boolean K1 = true;
-        boolean K2 = false;
-        System.out.println(sum3 % 2 == 0);
-        System.out.println(sum4 % 2 == 0);
+ if (sum1 % 2 == 0 | sum2 % 2 == 0 | sum3 % 2 == 0 | sum4 % 2 == 0){
+        System.out.println("true");}
+ else{System.out.println("false");
+        }
     }
 }
