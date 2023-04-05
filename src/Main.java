@@ -18,7 +18,7 @@ public class Main {
 //Виводить результат порівняння (true якщо перша сума більша).
         System.out.println(sum3 >= sum4);
 //Виводить true якщо хоча б одна сума кратна 2, інакше - false.
- if (sum1 % 2 == 0 | sum2 % 2 == 0 | sum3 % 2 == 0 | sum4 % 2 == 0){
+ if (sum3 % 2 == 0 | sum4 % 2 == 0){
         System.out.println("true");}
  else{System.out.println("false");
         }
