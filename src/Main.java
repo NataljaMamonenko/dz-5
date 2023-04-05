@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
 //Надаємо значення 4 змінним та сумуємо їх попарно;
-        int a = 6;
+        int a = 7;
         int b = 3;
         int sum1 = a + b;
         int c = 5;
